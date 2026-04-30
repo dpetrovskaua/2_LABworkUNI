@@ -1,9 +1,6 @@
 import re
 
 class TextProcessor:
-    def __init__(self):
-        pass
-
     def process_1word(self, word: str) -> str:
         if not word:
             return word
@@ -38,4 +35,4 @@ if __name__ == "__main__":
             break
 
         result = processor.process_text(user_input)
-        print(f"Результат:  {result}\n")
+        print(f"Результат: {result}\n")
